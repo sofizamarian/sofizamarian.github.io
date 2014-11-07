@@ -1,0 +1,95 @@
+body {
+    background-image: url("../src/background.png"); /* imagen de fondo*/
+    font-family: 'Roboto', sans-serif; /*la tipo va aca para que toda la pagina agarre la misma tipo*/
+}
+
+#miperfil { /*primera caja blanca*/
+    background-color: rgba( 241, 95, 95, 0.986 );
+    width: 460px;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    margin-left: -230px;
+    margin-bottom: 180px;
+    border-radius: 5px; /*borde redondeado*/
+    box-shadow: 0 3px 7px grey /* base altura blur y color*/
+}
+#miperfil header {
+    background-color: white;
+    border-radius: 5px 5px 0 0; /*borde redondeado*/
+}
+
+#miperfil header .extracto {
+    padding: 30px 20px 30px 20px; /* arriba - derecha - abajo - izquierda*/
+    position: relative;
+}
+
+#miperfil header .extracto .avatar {
+    position: absolute;
+    height: 80px; /*para que la imagen no se deforme (viene de el div class avatar*/
+    width: 80px;
+    right: -40px;
+    border: 4px solid white;
+    border-radius: 90px; /*para hacer una mascara circular sobre la imagen*/
+    top: 40px;
+    overflow: hidden;
+}
+#miperfil header .extracto .avatar img {
+    width:auto;
+    height: 100%;    
+}
+
+#miperfil header .extracto h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 500px;
+}
+
+#miperfil header .extracto p {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #666666;
+    
+}
+
+#miperfil header nav ul { /*UL=unordered list - LI=item de esa lista*/
+    list-style: none; /*para que no haya bullets*/
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#miperfil header nav ul li{
+    float: left;
+    margin: 0 0 20px 20px;
+    
+}
+
+#miperfil header nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    transition: color .2s ease;
+}
+
+#miperfil header nav ul li a:hover{
+    color: red;
+}
+    
+#miperfil header nav ul li.activo a{ /*para darle estilo a la pagina activa*/
+    color: #b4b6b8;
+}
+
+main .bio {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+main .bio p {
+    color:white;
+    font-size: 12px;
+}

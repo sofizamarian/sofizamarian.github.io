@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Contacto - Sofia </title>
+    <meta charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,500,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacto_style.css">
+</head>
+
+<body>
+    <div id="miperfil">
+        <header>
+        <section class="extracto">
+        <h1> Sofia </h1>
+            <p> Diseñadora </p> <!--p=parrafo-->
+            <div class="avatar"> <!--funcion para que la imagen no se deforme-->
+            <img src="src/avatar.png" alt= "Mi Foto"> <!--si no aparece la foto aparece el texto "Mi foto"-->
+            </div>
+        </section>
+        
+         <nav>
+            <ul>
+            <li>
+            <a href="index.html">Acerca de Mi </a>
+            </li>
+            <li> <a href="links.html">Links </a>
+            </li>
+            <li class="activo">
+            <a href="contacto.html">Contacto </a>
+            </li>
+            </ul>
+        </nav>
+        
+        </header>
+        <main>
+            <section class="contacto">
+             <form > <!--para formularios especificamente-->
+             <label for="nombre"> Nombre </label>
+             <input type="text"/>
+             <br/>
+             <label for="mail"> Mail </label>
+             <input type="email"/>
+             <br/>
+            <label for="mensaje"> Mensaje </label>
+             <textarea rows="7" id="mensaje"></textarea>
+             <br/>
+             <input type="submit" value= "Enviar">
+            </form>
+            </section>
+                
+                
+        </main>
+       
+    </div>
+</body>
+</html>

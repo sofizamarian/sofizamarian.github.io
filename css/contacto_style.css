@@ -1,0 +1,57 @@
+.contacto {
+    padding: 20px;
+}
+
+
+.contacto label{
+    color: white;
+    font-size: 14px;
+   /* display: block; /*para qeu se estire toda la linea del texto hasta el ancho total de la placa roja*/
+   /* margin-bottom: 4px; -los margenes no sirven en este caso*/
+    cursor: pointer; /*manito o cualquier otra forma en vez de cursor*/
+}
+
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto textarea {
+    background-color: #d23b3b;
+    border: 0;
+    border-radius: 3px;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    outline: none;
+    transition: box-shadow .1s ease; background-color:  .1s ease;
+    
+}
+
+.contacto textarea{
+    resize: none;
+}
+.contacto input[type="text"]:focus,
+.contacto input[type="email"]:focus,
+.contacto textarea:focus {
+    box-shadow: 0 0 1px 1px #dd9696;
+    background-color: #e37272;   
+}
+
+.contacto input[type="submit"] {
+    background-color: #af3a3a;
+    border-radius: 3px;
+    border: 0;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.contacto input[type="submit"]:hover{
+    background: linear-gradient(#d17e7e, #ec9797);
+    box-shadow: inset 0 1px 1px #dd9696;
+}
